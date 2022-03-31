@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/yosemite.jpg");
+    background-repeat: no-repeat;
+    font-size: 10px;
+}
+
+body section {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 30px;
+}
+
+body section h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body article {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+
+body article p:first-child {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-family: helvetica;
+}
+
+body article p:nth-child(2) {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-family: helvetica, arial, sans-serif;
+}
+
+body article h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: helvetica;
+    padding: 50px;
+}
+
+body article p:nth-of-type(3) {
+    font-size: 1rem;
+    text-align: center;
+    font-family: helvetica;
+    padding-bottom: 2rem;
+}
+
+body article p:nth-of-type(4) {
+    font-size: 1rem;
+    text-align: center;
+    font-family: helvetica;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
